@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "933559102263",
+    "project_id": "firechats-be8f6",
+    "storage_bucket": "firechats-be8f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933559102263:android:641cbd274ff04e49ba88b2",
+        "android_client_info": {
+          "package_name": "com.mianasad.chatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933559102263-b2urh1vf4b92jqfo2has9ku60htm4s1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9EZwXgN5fwtHRT-p7UWCkGXI0gtRAY-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933559102263-b2urh1vf4b92jqfo2has9ku60htm4s1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
