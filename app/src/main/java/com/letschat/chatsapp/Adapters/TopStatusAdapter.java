@@ -1,4 +1,4 @@
-package com.mianasad.chatsapp.Adapters;
+package com.letschat.chatsapp.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,13 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.mianasad.chatsapp.Activities.MainActivity;
-import com.mianasad.chatsapp.Models.Status;
-import com.mianasad.chatsapp.Models.User;
-import com.mianasad.chatsapp.Models.UserStatus;
-import com.mianasad.chatsapp.R;
-import com.mianasad.chatsapp.databinding.ItemSentBinding;
-import com.mianasad.chatsapp.databinding.ItemStatusBinding;
+import com.letschat.chatsapp.Activities.MainActivity;
+import com.letschat.chatsapp.Models.Status;
+import com.letschat.chatsapp.Models.UserStatus;
+import com.letschat.chatsapp.R;
+import com.letschat.chatsapp.databinding.ItemSentBinding;
+import com.letschat.chatsapp.databinding.ItemStatusBinding;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.mianasad.chatsapp.Adapters;
+package com.letschat.chatsapp.Adapters;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -19,14 +19,14 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.mianasad.chatsapp.Models.Message;
-import com.mianasad.chatsapp.Models.User;
-import com.mianasad.chatsapp.R;
-import com.mianasad.chatsapp.databinding.DeleteDialogBinding;
-import com.mianasad.chatsapp.databinding.ItemReceiveBinding;
-import com.mianasad.chatsapp.databinding.ItemReceiveGroupBinding;
-import com.mianasad.chatsapp.databinding.ItemSentBinding;
-import com.mianasad.chatsapp.databinding.ItemSentGroupBinding;
+import com.letschat.chatsapp.Models.Message;
+import com.letschat.chatsapp.Models.User;
+import com.letschat.chatsapp.R;
+import com.letschat.chatsapp.databinding.DeleteDialogBinding;
+import com.letschat.chatsapp.databinding.ItemReceiveBinding;
+import com.letschat.chatsapp.databinding.ItemReceiveGroupBinding;
+import com.letschat.chatsapp.databinding.ItemSentBinding;
+import com.letschat.chatsapp.databinding.ItemSentGroupBinding;
 
 import java.util.ArrayList;
 

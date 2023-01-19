@@ -1,9 +1,4 @@
-package com.mianasad.chatsapp.Activities;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
+package com.letschat.chatsapp.Activities;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -12,14 +7,16 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+
 import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -32,16 +29,15 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.mianasad.chatsapp.Adapters.MessagesAdapter;
-import com.mianasad.chatsapp.Models.Message;
-import com.mianasad.chatsapp.R;
-import com.mianasad.chatsapp.databinding.ActivityChatBinding;
+import com.letschat.chatsapp.Adapters.MessagesAdapter;
+import com.letschat.chatsapp.Models.Message;
+import com.letschat.chatsapp.R;
+import com.letschat.chatsapp.databinding.ActivityChatBinding;
 
 import org.json.JSONObject;
 

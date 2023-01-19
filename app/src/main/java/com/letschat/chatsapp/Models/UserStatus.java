@@ -1,4 +1,4 @@
-package com.mianasad.chatsapp.Models;
+package com.letschat.chatsapp.Models;
 
 import java.util.ArrayList;
 

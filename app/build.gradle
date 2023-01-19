@@ -10,7 +10,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mianasad.chatsapp"
+        applicationId "com.letschat.chatsapp"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 1
@@ -29,7 +29,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    namespace 'com.mianasad.chatsapp'
+    namespace 'com.letschat.chatsapp'
 }
 
 dependencies {

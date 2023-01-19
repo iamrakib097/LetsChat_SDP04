@@ -1,4 +1,4 @@
-package com.mianasad.chatsapp.Activities;
+package com.letschat.chatsapp.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,10 +13,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -37,17 +35,16 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.mianasad.chatsapp.Adapters.TopStatusAdapter;
-import com.mianasad.chatsapp.Models.Status;
-import com.mianasad.chatsapp.Models.UserStatus;
-import com.mianasad.chatsapp.R;
-import com.mianasad.chatsapp.Models.User;
-import com.mianasad.chatsapp.Adapters.UsersAdapter;
-import com.mianasad.chatsapp.databinding.ActivityMainBinding;
+import com.letschat.chatsapp.Adapters.TopStatusAdapter;
+import com.letschat.chatsapp.Models.Status;
+import com.letschat.chatsapp.Models.UserStatus;
+import com.letschat.chatsapp.R;
+import com.letschat.chatsapp.Models.User;
+import com.letschat.chatsapp.Adapters.UsersAdapter;
+import com.letschat.chatsapp.databinding.ActivityMainBinding;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;

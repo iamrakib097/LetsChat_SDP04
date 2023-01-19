@@ -1,4 +1,4 @@
-package com.mianasad.chatsapp.Adapters;
+package com.letschat.chatsapp.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,10 +15,10 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.mianasad.chatsapp.Activities.ChatActivity;
-import com.mianasad.chatsapp.R;
-import com.mianasad.chatsapp.Models.User;
-import com.mianasad.chatsapp.databinding.RowConversationBinding;
+import com.letschat.chatsapp.Activities.ChatActivity;
+import com.letschat.chatsapp.R;
+import com.letschat.chatsapp.Models.User;
+import com.letschat.chatsapp.databinding.RowConversationBinding;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.mianasad.chatsapp.Models;
+package com.letschat.chatsapp.Models;
 
 public class Message {
     private String messageId, message, senderId, imageUrl;

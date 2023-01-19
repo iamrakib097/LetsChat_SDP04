@@ -1,4 +1,4 @@
-package com.mianasad.chatsapp.Activities;
+package com.letschat.chatsapp.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,8 +18,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.mianasad.chatsapp.Models.User;
-import com.mianasad.chatsapp.databinding.ActivitySetupProfileBinding;
+import com.letschat.chatsapp.Models.User;
+import com.letschat.chatsapp.databinding.ActivitySetupProfileBinding;
 
 import java.util.Date;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.mianasad.chatsapp;
+package com.letschat.chatsapp;
 
 import android.content.Context;
 

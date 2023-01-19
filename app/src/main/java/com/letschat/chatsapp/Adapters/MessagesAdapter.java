@@ -1,8 +1,7 @@
-package com.mianasad.chatsapp.Adapters;
+package com.letschat.chatsapp.Adapters;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -19,14 +18,13 @@ import com.github.pgreze.reactions.ReactionsConfigBuilder;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
-import com.mianasad.chatsapp.Models.Message;
-import com.mianasad.chatsapp.R;
-import com.mianasad.chatsapp.databinding.DeleteDialogBinding;
-import com.mianasad.chatsapp.databinding.ItemReceiveBinding;
-import com.mianasad.chatsapp.databinding.ItemSentBinding;
+import com.letschat.chatsapp.Models.Message;
+import com.letschat.chatsapp.R;
+import com.letschat.chatsapp.databinding.DeleteDialogBinding;
+import com.letschat.chatsapp.databinding.ItemReceiveBinding;
+import com.letschat.chatsapp.databinding.ItemSentBinding;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class MessagesAdapter extends RecyclerView.Adapter {
 

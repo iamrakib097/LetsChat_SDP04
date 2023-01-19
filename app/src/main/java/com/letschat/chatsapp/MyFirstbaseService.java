@@ -1,4 +1,4 @@
-package com.mianasad.chatsapp;
+package com.letschat.chatsapp;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -11,11 +11,10 @@ import android.os.Build;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
-import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-import com.mianasad.chatsapp.Activities.MainActivity;
+import com.letschat.chatsapp.Activities.MainActivity;
 
 import org.jetbrains.annotations.NotNull;
 
