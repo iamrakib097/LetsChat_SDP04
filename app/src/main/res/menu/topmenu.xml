@@ -14,8 +14,8 @@
         android:id="@+id/invite"
         android:title="Invite" />
     <item
-        android:id="@+id/settings"
-        android:title="Settings" />
+        android:id="@+id/proupdate"
+        android:title="Profile Update" />
     <item
         android:id="@+id/logout"
         android:title="Logout" />

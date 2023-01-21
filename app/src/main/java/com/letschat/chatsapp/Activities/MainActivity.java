@@ -311,8 +311,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.search:
                 Toast.makeText(this, "Search clicked.", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.settings:
-                Toast.makeText(this, "Settings Clicked.", Toast.LENGTH_SHORT).show();
+            case R.id.proupdate:
+                startActivity(new Intent(MainActivity.this, SetupProfileActivity.class));
                 break;
             case R.id.logout:
                 FirebaseAuth.getInstance().signOut();
