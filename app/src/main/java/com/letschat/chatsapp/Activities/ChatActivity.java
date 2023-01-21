@@ -361,7 +361,7 @@ public class ChatActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         String currentId = FirebaseAuth.getInstance().getUid();
-        database.getReference().child("presence").child(currentId).setValue("Online");
+        database.getReference().child("presence").child(currentId).setValue("Active now");
     }
 
     @Override
