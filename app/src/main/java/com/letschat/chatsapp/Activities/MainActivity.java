@@ -1,11 +1,5 @@
 package com.letschat.chatsapp.Activities;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
@@ -16,6 +10,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.CustomTarget;
@@ -36,11 +36,11 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.letschat.chatsapp.Adapters.TopStatusAdapter;
+import com.letschat.chatsapp.Adapters.UsersAdapter;
 import com.letschat.chatsapp.Models.Status;
+import com.letschat.chatsapp.Models.User;
 import com.letschat.chatsapp.Models.UserStatus;
 import com.letschat.chatsapp.R;
-import com.letschat.chatsapp.Models.User;
-import com.letschat.chatsapp.Adapters.UsersAdapter;
 import com.letschat.chatsapp.databinding.ActivityMainBinding;
 
 import org.jetbrains.annotations.NotNull;
@@ -313,6 +313,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.settings:
                 Toast.makeText(this, "Settings Clicked.", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.logout:
+                FirebaseAuth.getInstance().signOut();
+                finish();
+                startActivity(new Intent(MainActivity.this,PhoneNumberActivity.class ));
                 break;
         }
         return super.onOptionsItemSelected(item);
