@@ -317,7 +317,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.logout:
                 FirebaseAuth.getInstance().signOut();
                 finish();
-                startActivity(new Intent(MainActivity.this,PhoneNumberActivity.class ));
+                Intent intent = new Intent(getApplicationContext(), PhoneNumberActivity.class);
+                startActivity(intent);
                 break;
         }
         return super.onOptionsItemSelected(item);
