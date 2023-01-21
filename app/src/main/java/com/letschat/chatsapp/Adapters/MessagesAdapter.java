@@ -79,6 +79,7 @@ public class MessagesAdapter extends RecyclerView.Adapter {
                 R.drawable.ic_fb_laugh,
                 R.drawable.ic_fb_wow,
                 R.drawable.ic_fb_sad,
+                R.drawable.dislike,
                 R.drawable.ic_fb_angry
         };
 
