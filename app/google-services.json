@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "523228173779",
-    "project_id": "firedatabase-9a979",
-    "storage_bucket": "firedatabase-9a979.appspot.com"
+    "project_number": "818743368639",
+    "project_id": "plasma-c5d38",
+    "storage_bucket": "plasma-c5d38.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:523228173779:android:8250b1e6b3c32573590b26",
+        "mobilesdk_app_id": "1:818743368639:android:61453d979827fa77229f0a",
         "android_client_info": {
           "package_name": "com.letschat.chatsapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "523228173779-da3qleol85j2qup3igh6vrv29rgln85h.apps.googleusercontent.com",
+          "client_id": "818743368639-ltu1iqod3g9pieolb93koac8hubsgnmq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCtLexKy5MLHguGkQ60Vw-TWeVgrAFXj5E"
+          "current_key": "AIzaSyCrfL9pz_W7aHPa-Lqav7PCEG2tULp1R94"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "523228173779-da3qleol85j2qup3igh6vrv29rgln85h.apps.googleusercontent.com",
+              "client_id": "818743368639-ltu1iqod3g9pieolb93koac8hubsgnmq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
