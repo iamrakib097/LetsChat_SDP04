@@ -30,7 +30,9 @@
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
             android:paddingTop="5dp"
+            android:textColor="@color/black"
             android:paddingRight="10dp"
+            android:background="@drawable/receive_drawable"
             android:paddingBottom="5dp"
             android:text="TextView"
             android:textSize="13sp" />
