@@ -3,16 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/search"
-        android:icon="@drawable/ic_search"
-        android:title="Search"
-        app:showAsAction="always" />
-    <item
         android:id="@+id/group"
-        android:title="Groups" />
-    <item
-        android:id="@+id/invite"
-        android:title="Invite" />
+        android:title="Group Chat" />
     <item
         android:id="@+id/proupdate"
         android:title="Profile Update" />

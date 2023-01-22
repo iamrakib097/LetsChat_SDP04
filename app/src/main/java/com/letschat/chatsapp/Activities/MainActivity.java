@@ -9,7 +9,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -307,9 +306,6 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.group:
                 startActivity(new Intent(MainActivity.this, GroupChatActivity.class));
-                break;
-            case R.id.search:
-                Toast.makeText(this, "Search clicked.", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.proupdate:
                 startActivity(new Intent(MainActivity.this, SetupProfileActivity.class));
