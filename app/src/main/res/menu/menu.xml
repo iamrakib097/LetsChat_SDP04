@@ -9,4 +9,8 @@
         android:id="@+id/status"
         android:icon="@drawable/ic_status"
         android:title="Status" />
+    <item
+        android:id="@+id/groupc"
+        android:icon="@drawable/ic_group"
+        android:title="GroupChat" />
 </menu>

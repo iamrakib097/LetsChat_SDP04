@@ -228,6 +228,9 @@ public class MainActivity extends AppCompatActivity {
                         intent.setAction(Intent.ACTION_GET_CONTENT);
                         startActivityForResult(intent, 75);
                         break;
+                    case R.id.groupc:
+                        startActivity(new Intent(MainActivity.this, GroupChatActivity.class));
+                        break;
                 }
                 return false;
             }
@@ -304,9 +307,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.group:
-                startActivity(new Intent(MainActivity.this, GroupChatActivity.class));
-                break;
             case R.id.proupdate:
                 startActivity(new Intent(MainActivity.this, SetupProfileActivity.class));
                 break;
