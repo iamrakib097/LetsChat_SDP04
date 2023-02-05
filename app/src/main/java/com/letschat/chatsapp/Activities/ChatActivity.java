@@ -237,9 +237,6 @@ public class ChatActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
-//        getSupportActionBar().setTitle(name);
-//
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     void sendNotification(String name, String message, String token) {
