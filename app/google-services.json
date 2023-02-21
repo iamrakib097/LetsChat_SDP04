@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "818743368639",
-    "project_id": "plasma-c5d38",
-    "storage_bucket": "plasma-c5d38.appspot.com"
+    "project_number": "953375801847",
+    "project_id": "nitro26xe",
+    "storage_bucket": "nitro26xe.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:818743368639:android:61453d979827fa77229f0a",
+        "mobilesdk_app_id": "1:953375801847:android:24f7ace50ebc8eced66ef2",
         "android_client_info": {
           "package_name": "com.letschat.chatsapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "818743368639-ltu1iqod3g9pieolb93koac8hubsgnmq.apps.googleusercontent.com",
+          "client_id": "953375801847-assr5cadcsl3p3ao5120gloj820kr2f0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCrfL9pz_W7aHPa-Lqav7PCEG2tULp1R94"
+          "current_key": "AIzaSyCvWJxT1m3Cb2RK87id8P_qwAdhXfbkZRk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "818743368639-ltu1iqod3g9pieolb93koac8hubsgnmq.apps.googleusercontent.com",
+              "client_id": "953375801847-assr5cadcsl3p3ao5120gloj820kr2f0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
