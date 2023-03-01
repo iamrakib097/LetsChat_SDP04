@@ -1,5 +1,5 @@
 package com.letschat.chatsapp.Adapters;
-
+//from rakib
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
